@@ -1,2 +1,4 @@
-// API CONFIGURATION
-API_PORT=8000
+# PHASE 1 (Senin, 08/03/2026)
+- Create and Update User
+- Login and Logout
+- Token Verifier
