@@ -13,3 +13,4 @@
 - Mail Verifier "nodemailer" (Send OTP To EMAIL - To reduce bot accounts)
 - Account Checker (Is Verified / Not 'Reduce Bots')
 - Added API Docs
+- id using public_id (every CRUD using public_id 'random character and number')
