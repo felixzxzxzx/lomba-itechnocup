@@ -14,3 +14,11 @@
 - Account Checker (Is Verified / Not 'Reduce Bots')
 - Added API Docs
 - id using public_id (every CRUD using public_id 'random character and number')
+
+# PHASE 4 (Senin, 08/17/2026)
+- Add, Edit, Delete Food Donation
+- Add Money Donation Request
+- Profile Update for Donator and Recevier (so that there are no fake institutions/communities)
+- Verify Profile (Account) (so that there are no fake institutions/communities)
+- Add Donation Request
+- Verify Donation Request (will be verified after checking the details)
