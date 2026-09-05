@@ -10,7 +10,7 @@
   
   **Submission for ITECHNO CUP 2026 - Web Development Competition**
   
-  **By Tim FoodBridge**
+  **By Tim Bebass**
   
 </div>
 
