@@ -96,7 +96,8 @@ export interface MoneyDonation {
 }
 
 export interface DonationRequest {
-  public_id: string;
+  id?: string;
+  public_id?: string;
   requested_portions: number;
   status: 'pending' | 'confirmed' | 'picked_up' | 'cancelled' | 'rejected' | 'expired' | string;
   notes?: string;

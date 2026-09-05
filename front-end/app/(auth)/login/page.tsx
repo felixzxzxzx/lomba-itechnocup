@@ -30,6 +30,19 @@ function LoginForm() {
   const [errorMessage, setErrorMessage] = useState('');
   const [isUnverified, setIsUnverified] = useState(false);
 
+  const fillDemo = (role: 'donor' | 'receiver' | 'admin') => {
+    if (role === 'donor') {
+      setEmail('donatur@foodbridge.test');
+      setPassword('password123');
+    } else if (role === 'admin') {
+      setEmail('admin@foodbridge.test');
+      setPassword('password123');
+    } else {
+      setEmail('penerima@foodbridge.test');
+      setPassword('password123');
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);

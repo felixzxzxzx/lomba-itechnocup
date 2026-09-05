@@ -577,7 +577,7 @@ export default function DashboardPage() {
                               <button
                                 type="button"
                                 disabled={actionLoading === donor.public_id}
-                                onClick={() => handleVerifyDonor(donor.public_id, isVerif)}
+                                onClick={() => handleVerifyDonor(donor.public_id || '', isVerif)}
                                 className={`font-bold px-3 py-1.5 rounded-lg text-xs transition-all cursor-pointer inline-flex items-center gap-1 shadow-xs ${
                                   isVerif
                                     ? 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300'
@@ -655,7 +655,7 @@ export default function DashboardPage() {
                               <button
                                 type="button"
                                 disabled={actionLoading === receiver.public_id}
-                                onClick={() => handleVerifyReceiver(receiver.public_id, isVerif)}
+                                onClick={() => handleVerifyReceiver(receiver.public_id || '', isVerif)}
                                 className={`font-bold px-3 py-1.5 rounded-lg text-xs transition-all cursor-pointer inline-flex items-center gap-1 shadow-xs ${
                                   isVerif
                                     ? 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300'
